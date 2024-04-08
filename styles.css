@@ -2,8 +2,10 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     color: darkred;
-    background-color: darkgray;
+    background-color: lightgray;
 }
 .title {
     font-style: italic;
+    text-align: center;
+    font-size: 48px;
 }
