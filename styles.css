@@ -69,3 +69,11 @@ img {
     display:block;
     margin: 1em 0;
 }
+
+#footer {
+    background-color: lightcoral;
+    box-sizing: content-box;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+}
