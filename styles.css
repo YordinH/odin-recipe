@@ -42,7 +42,30 @@ body {
     margin: 20px auto;
 }
 
-.recipeList, ul {
+div.recipeList ul {
     display:inline-block;
     list-style-type:none;
+}
+
+.recipeText {
+    color:white;
+    background-color: lightcoral;
+    padding: 24px;
+    margin: 20px;
+    border-radius: 12px;
+    border:2px solid black;
+}
+
+div.recipeText h2{
+    text-align: center;
+}
+
+img {
+    margin:20px;
+    border-radius: 12px;
+}
+
+#blackBreakLine {
+    display:block;
+    margin: 1em 0;
 }
