@@ -1,11 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url(./images/websiteBackround.jpg);
+    background-color: white;
+    background-size: cover;
+    height:700px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .button {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Baskerville", Times, serif;
     font-size: 24px;
-    color: darkred;
+    color: white;
+    background-color: lightcoral;
+    text-align: center;
+    text-decoration: none;
+    border:2px solid black;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    width: 256px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
     background-color: lightgray;
 }
+
 .title {
+    width: fit-content;
+    color:white;
+    background-color: lightcoral;
+    border-radius: 8px;
+    text-shadow: 2px black;
     font-style: italic;
     text-align: center;
     font-size: 48px;
+    padding: 8px 24px;
+    margin: 20px auto;
+}
+
+.recipeList, ul {
+    display:inline-block;
+    list-style-type:none;
 }
