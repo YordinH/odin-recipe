@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin:0;
 }
 
 body { 
@@ -19,10 +21,11 @@ body {
     text-align: center;
     text-decoration: none;
     border:2px solid black;
-    margin-bottom: 8px;
+    margin: 8px;
     border-radius: 8px;
     width: 256px;
     transition-duration: 0.4s;
+    padding:2px;
 }
 
 .button:hover {
@@ -39,12 +42,13 @@ body {
     text-align: center;
     font-size: 48px;
     padding: 8px 24px;
-    margin: 20px auto;
+    margin  : 8px;
 }
 
 div.recipeList ul {
-    display:inline-block;
+    display:flex;
     list-style-type:none;
+    justify-content: space-around;
 }
 
 .recipeText {
@@ -56,8 +60,13 @@ div.recipeList ul {
     border:2px solid black;
 }
 
-div.recipeText h2{
+div.recipeText h2, div.recipeText p{
     text-align: center;
+    margin-bottom:10px;
+}
+
+div.recipeText li{
+    margin:5px 40px;
 }
 
 img {
@@ -65,9 +74,26 @@ img {
     border-radius: 12px;
 }
 
+
 #whiteBreakLine {
     display:block;
     margin: 1em 0;
+}
+
+.menu .button {
+    margin:0 0 8px;
+}
+
+.menu-container, .header{
+    display:flex;
+    justify-content: center;
+    background-color:darkred;
+}
+
+.menu {
+    width: 900px;
+    display:flex;
+    justify-content: space-between;
 }
 
 #footer {
